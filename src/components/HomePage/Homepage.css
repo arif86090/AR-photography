@@ -14,6 +14,32 @@
 .service-header span{
     color: #FF9900;
 }
+.bannar-text{
+    padding: 80px 0px;
+}
+.bannar-text h2{
+    font-weight: bold;
+    color: white;
+    margin-bottom: 17px;
+}
+.bannar-text h2 span{
+    color:#FF9900!important;
+}
+.bannar-text p{
+    color: white;
+}
+.bannar-text button{
+    border: none;
+    outline: none;
+    background:#FF9900;
+   
+    padding: 7px 9px;
+    font-weight: bold;
+}
+.bannar-text button:hover{
+    background:rgba(255, 153, 0, 0.3);
+   transition: all .3s;
+}
 
 @media(max-width:991px){
     .services{
@@ -37,5 +63,8 @@
         grid-template-columns: repeat(1,1fr);
         grid-gap: 17px;
     
+    }
+    .bannar-text{
+        padding: 40px 0px;
     }
 }

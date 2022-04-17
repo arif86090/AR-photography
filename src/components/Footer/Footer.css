@@ -1,0 +1,23 @@
+.footer-card h4{
+    font-weight: bold;
+    color: white;
+    margin-bottom: 20px;
+}
+.footer-card p{
+    color: white;
+}
+.footer-card h6{
+    color: #FF9900;
+}
+.footer-card button{
+
+    border: none;
+    outline: none;
+    background:#FF9900;
+    padding: 7px 10px;
+    font-weight: bold;
+}
+.ar-copy{
+    color: #FF9900;
+    font-weight: bold;
+}
