@@ -10,6 +10,7 @@ import Signup from './components/Signup/Signup';
 import Footer from  './components/Footer/Footer'
 import Checkout from './components/Checkout/Checkout';
 import Blog from './components/Blog/Blog';
+import Nodata from './components/Nodata/Nodata';
 function App() {
   return (
     <div>
@@ -26,6 +27,7 @@ function App() {
         <Route path='/aboutme' element={<About></About>}></Route>
         <Route path='/login' element={<Login></Login>}></Route>
         <Route path='/signup' element={<Signup></Signup>}></Route>
+        <Route path='*' element={<Nodata></Nodata>}></Route>
       </Routes>
 
       <Footer></Footer>
