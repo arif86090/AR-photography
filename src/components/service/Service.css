@@ -1,0 +1,36 @@
+.service-card img{
+    height:300px;
+    width: 100%;
+}
+.service-card h4{
+    font-weight: bold;
+    margin-top: 14px;
+    margin-bottom: 15px;
+}
+.service-card h6{
+    font-weight: bold;
+    margin-bottom: 20px;
+
+}
+.service-card h6 span{
+    color:#FF9900;
+}
+.service-card{
+    padding: 12px;
+}
+.service-card button a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.service-card button{
+    outline: none;
+    border: none;
+    width: 100%;
+    text-align: center;
+    background: #FF9900;
+    margin-top: 10px;
+    cursor: pointer;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}

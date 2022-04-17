@@ -1,0 +1,39 @@
+.header{
+    height: 80px;
+    background-color: #1C2B35;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 140px;
+    padding-right: 140px;
+}
+.tittle-name{
+    color: #FF9900!important;
+    font-weight: bold;
+}
+
+.header a{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 17px;
+    margin-left: 36px;
+}
+.header a:hover{
+    color: orange;
+}
+.logOut-btn{
+    border:2px solid #FF9900;
+    outline: none;
+    background: none;
+    font-weight: bold;
+    color:white;
+    cursor: pointer;
+    background: none;
+}
+
+@media(max-width:768px){
+    .logOut-btn{
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+}

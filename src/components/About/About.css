@@ -1,0 +1,19 @@
+.about-me h2 span{
+    font-weight: bold;
+    color: #FF9900;
+   
+    
+}
+.about-me h2 {
+    margin-bottom: 20px;
+}
+.about-me button{
+    background:#FF9900;
+    border: none;
+    outline: none;
+    color: black;
+    margin-top: 15px;
+    padding: 10px;
+
+
+}

@@ -1,0 +1,50 @@
+.from-container{
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    padding: 20px;
+}
+.from-container h2{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+.submit-btn{
+    border: none;
+    outline: none;
+    background:#FF9900;
+    width: 100%;
+    padding: 7px 0px;
+    font-weight: bold;
+}
+.signup-link{
+    text-decoration: none;
+    color:#FF9900;
+    font-weight: bold;
+
+}
+.google-btn{
+    background:#FF9900;
+    border: none;
+    outline: none;}
+.g-img{
+    width: 30px;
+    height: 30px;
+    background: white;
+    border-radius: 50%;
+}
+.google-btn span{
+    height:30px;
+    width: 30px;
+    padding: 6px;
+    margin-right: 10px;
+}
+.forgetpass-btn{
+    background: none;
+    color: #FF9900;
+    border: none;
+    outline: none;
+}
+.submit-btn:hover,.forgetpass-btn:hover,.google-btn:hover,.signup-link:hover{
+   background:rgba(255, 153, 0, 0.3);
+   transition: all .3s;
+}
