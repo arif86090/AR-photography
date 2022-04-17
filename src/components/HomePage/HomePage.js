@@ -36,7 +36,7 @@ const HomePage = () => {
                 <div className='bannar-text'>
                     <h2><span>AR-PHOTOGRAPHY</span> CAPTURE THE STORY OF YOUR BEAUTIFUL WEDDING DAY.</h2>
                     <p>As well as showing the Best Wedding Photographers in Bangladesh in our directory you can also browse through tips and advice on how to choose a photographer, questions to ask them and things to consider when looking at photos and photography styles. View lots of real weddings with real brides captured by top professionals on our wedding photography blog.</p> 
-                    <button>Read more</button>
+                    <button>Read More</button>
                 </div>
                 </div>
                 <div className='col-md-4 col-lg-6'></div>
